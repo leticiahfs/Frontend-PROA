@@ -1,2 +1,3 @@
 # Frontend-PROA
-Curso de front do PROA - para revisão
+Curso de front do PROA - HTML
+(para revisão)
