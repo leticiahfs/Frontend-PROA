@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+
+        <h2>Trabalhando com imagens</h2>
+
+        <!--    'src' = source = fonte/origem do arquivo
+                'alt' = alternative = alternativo. A tag serve para acessibilidade, pois quando a imagem não é carregada, o navegador busca esse texto alternativo, que serve como descrição da imagem. Quanto mais detalhes esse texto alaternativo possuir, melhor a acessibilidade e experiência do usuário.
+        -->
+        <img src="FOTO INSTA IGNIS.png" alt="Foto de perfil, a partir do WhatsApp - Coordenação IGNIS">
+
+        <!--    É possível controlar a altura e largura da imagem pelo HTML:
+                - HEIGHT = altura -representa a altura de imagem
+                - WIDTH = LARGURA - representa a largura/comprimento da imagem
+        -->
+        <br>
+
+        <img src="bolo-de-chocolate-facil-receita.webp" alt="um bolo de chocolate" width="300" height="300">
+
+        <hr>
+
+        <!-- Uma forma de descrever uma imagem de uma forma que fique visível para todos-->
+        <figure>
+                <img src="FOTO INSTA IGNIS.png" alt="foto instagram ignis">
+                <figcaption>Foto de perfil do instagram do ignis - Foto extraída do Whatsaap</figcaption>
+
+        </figure>
+
+        <!--Complemento sobre as imagens 28/07/2025-->
+
+        <picture>
+                <source srcset="FOTO INSTA IGNIS.png" type="image/png">
+                <source srcset="FOTO INSTA IGNIS.png" type="image/png">
+                <source srcset="FOTO INSTA IGNIS.jpeg" type="image/jpeg">
+
+                <!-- Fallback =  imagem padrão -  caso as imagens anteriores falhem ou não sejam suportadas.-->
+                <img src="FOTO INSTA IGNIS.png" alt="Foto de perfil do instagram do ignis">
+        </picture>
+
+</body>
+
+</html>
